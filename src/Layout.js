@@ -6,10 +6,18 @@ import Blog from "./Home/Blog";
 function Layout() {
   return (
     <div>
-      <Home />
-      <About />
-      <Contact />
-      <Blog />
+      <div>
+        <Home />
+      </div>
+      <div>
+        <About />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Blog />
+      </div>
     </div>
   );
 }
